@@ -13,3 +13,9 @@ h1{
     background-color: #ffc060;
 
 }
+
+.img{
+    height: 500px;
+    width: 60%;
+    margin: 0 20%;
+}
