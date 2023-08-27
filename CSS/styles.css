@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -6,13 +8,62 @@ body{
     padding: 0;
     margin: 0;
     background-color: #ffe060;
+    font-family: 'Poppins', sans-serif;
 }
+
+.nav-bar{
+    display: flexbox;
+    background-color: #ffc060;
+    margin-bottom: 50px;
+}
+
+ul{
+    display: inline-block;
+    flex: 1;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 25px;
+
+    
+}
+
 
 h1{
-    text-align: center;
+    margin: 0;
     background-color: #ffc060;
+    display: inline-block;
+    flex:1;
 
 }
+
+/*Home button on the nav bar*/
+.Home{
+    margin-left: 600px;
+}
+
+.Home:hover{
+    color: #eeeeee;
+}
+
+/*About buttonon the nav bar*/
+
+.About:hover{
+    color: #eeeeee;
+}
+
+/*Careers button on the nav bar*/
+.Careers:hover{
+    color: #eeeeee;
+}
+
+a{
+    color: #000000;
+}
+
 
 .img{
     height: 500px;
